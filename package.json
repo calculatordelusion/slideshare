@@ -1,0 +1,53 @@
+{
+  "name": "slideshare-downloader",
+  "version": "0.2.0",
+  "private": true,
+  "author": "Parth Maniar",
+  "license": "MIT",
+  "keywords": [
+    "slideshare",
+    "downloader",
+    "slideshare downloader"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/officialpm/Slideshare-Downloader.git"
+  },
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.0.4",
+    "@testing-library/user-event": "^12.1.7",
+    "file-saver": "^2.0.5",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-particles-js": "^3.4.1",
+    "react-scripts": "3.4.3",
+    "shards-react": "^1.0.3"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
